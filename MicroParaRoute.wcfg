@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/GSejas/Dropbox/Lab digitales/Proyecto 2/proyecto2_v2/proyecto2_v2/Simu_MicrodePruebas_isim_beh2.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Simu_MicrodePruebas" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/Simu_MicrodePruebas/PWM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PWM[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/WrDat" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WrDat[17:0]</obj_property>
+      <obj_property name="ObjectShortName">WrDat[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/OperaA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaA[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaA[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/OperaBBancos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaBBancos[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaBBancos[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/OperaBALU" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaBALU[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaBALU[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/InstruccionOut_IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstruccionOut_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstruccionOut_IR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/REF" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">REF[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/POT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">POT[17:0]</obj_property>
+      <obj_property name="ObjectShortName">POT[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/InstruccionIn_IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstruccionIn_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstruccionIn_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/WrtAddrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WrtAddrs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WrtAddrs[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/WTReady" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WTReady</obj_property>
+      <obj_property name="ObjectShortName">WTReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/WrtEna" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WrtEna</obj_property>
+      <obj_property name="ObjectShortName">WrtEna</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/InstTemp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstTemp[13:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstTemp[13:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/InstTemp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstTemp[13:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstTemp[13:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group20" type="group">
+      <obj_property name="label">New Group</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/CCPU/OP_CODE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OP_CODE[5:0]</obj_property>
+         <obj_property name="ObjectShortName">OP_CODE[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/CCPU/FUNCT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FUNCT[5:0]</obj_property>
+         <obj_property name="ObjectShortName">FUNCT[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/CCPU/HAB" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">HAB</obj_property>
+         <obj_property name="ObjectShortName">HAB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/CCPU/CONTROL" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">CONTROL[5:0]</obj_property>
+         <obj_property name="ObjectShortName">CONTROL[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

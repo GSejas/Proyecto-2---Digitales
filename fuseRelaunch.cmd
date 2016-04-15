@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/SIMU_MICRO_ROM_isim_par.exe" -prj "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/SIMU_MICRO_ROM_par.prj" "work.SIMU_MICRO_ROM" "work.glbl" 

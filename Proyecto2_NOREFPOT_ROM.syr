@@ -1,0 +1,701 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Proyecto2_NOREFPOT_ROM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Proyecto2_NOREFPOT_ROM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Proyecto2_NOREFPOT_ROM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : Proyecto2_NOREFPOT_ROM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Reg18b.v" in library work
+Compiling verilog file "Mux16x1.v" in library work
+Module <Reg18b> compiled
+Compiling verilog file "DecoPrioridad.v" in library work
+Module <Mux16x1> compiled
+Compiling verilog file "Timer5ms.v" in library work
+Module <DecoPrioridad> compiled
+Compiling verilog file "RAMReplacement_ROM.v" in library work
+Module <Timer5ms> compiled
+Compiling verilog file "DCS.v" in library work
+Module <RAMReplacement_ROM> compiled
+Compiling verilog file "CONTROLCPU.v" in library work
+Module <DCS> compiled
+Compiling verilog file "Conta4bv2.v" in library work
+Module <CONTROLCPU> compiled
+Compiling verilog file "BancoRegistros.v" in library work
+Module <Conta4b> compiled
+Compiling verilog file "ALU.v" in library work
+Module <BancoRegistros> compiled
+Compiling verilog file "Micro_Con_ROM.v" in library work
+Module <ALU> compiled
+Compiling verilog file "DCM_12MHz.v" in library work
+Module <Micro_Con_ROM> compiled
+Compiling verilog file "async.v" in library work
+Module <DCM_12MHz> compiled
+Module <async_transmitter> compiled
+Module <async_receiver> compiled
+Module <ASSERTION_ERROR> compiled
+Compiling verilog file "Proyecto2_NOREFPOT_ROM.v" in library work
+Module <BaudTickGen> compiled
+Compiling verilog file "ipcore_dir/rAm_synth.v" in library work
+Module <Proyecto2_NOREFPOT_ROM> compiled
+Module <rAm> compiled
+No errors in compilation
+Analysis of file <"Proyecto2_NOREFPOT_ROM.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Proyecto2_NOREFPOT_ROM> in library <work>.
+
+Analyzing hierarchy for module <DCM_12MHz> in library <work>.
+
+Analyzing hierarchy for module <async_transmitter> in library <work> with parameters.
+	Baud = "00000000000000011100001000000000"
+	ClkFrequency = "00000000101010011000101011000111"
+
+Analyzing hierarchy for module <Micro_Con_ROM> in library <work>.
+
+Analyzing hierarchy for module <DCS> in library <work>.
+
+Analyzing hierarchy for module <BaudTickGen> in library <work> with parameters.
+	AccWidth = "00000000000000000000000000001111"
+	Baud = "00000000000000011100001000000000"
+	ClkFrequency = "00000000101010011000101011000111"
+	Inc = "00000000000000000000000101010100"
+	Oversampling = "00000000000000000000000000000001"
+	ShiftLimiter = "00000000000000000000000000000001"
+
+Analyzing hierarchy for module <RAMReplacement_ROM> in library <work>.
+
+Analyzing hierarchy for module <BancoRegistros> in library <work>.
+
+Analyzing hierarchy for module <Conta4b> in library <work> with parameters.
+	LARGO = "00000000000000000000000000000100"
+
+Analyzing hierarchy for module <ALU> in library <work>.
+
+Analyzing hierarchy for module <CONTROLCPU> in library <work>.
+
+Analyzing hierarchy for module <Timer5ms> in library <work>.
+
+Analyzing hierarchy for module <DecoPrioridad> in library <work>.
+
+Analyzing hierarchy for module <Reg18b> in library <work> with parameters.
+	n = "00000000000000000000000000010010"
+
+Analyzing hierarchy for module <Mux16x1> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Proyecto2_NOREFPOT_ROM>.
+Module <Proyecto2_NOREFPOT_ROM> is correct for synthesis.
+ 
+Analyzing module <DCM_12MHz> in library <work>.
+Module <DCM_12MHz> is correct for synthesis.
+ 
+Analyzing module <DCS> in library <work>.
+Module <DCS> is correct for synthesis.
+ 
+    Set user-defined property "CLKDV_DIVIDE =  4.500000" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "CLKIN_PERIOD =  20.000000" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <DCS>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <DCS>.
+Analyzing module <async_transmitter> in library <work>.
+	Baud = 32'sb00000000000000011100001000000000
+	ClkFrequency = 32'sb00000000101010011000101011000111
+Module <async_transmitter> is correct for synthesis.
+ 
+Analyzing module <BaudTickGen> in library <work>.
+	AccWidth = 32'sb00000000000000000000000000001111
+	Baud = 32'sb00000000000000011100001000000000
+	ClkFrequency = 32'sb00000000101010011000101011000111
+	Inc = 32'sb00000000000000000000000101010100
+	Oversampling = 32'sb00000000000000000000000000000001
+	ShiftLimiter = 32'sb00000000000000000000000000000001
+Module <BaudTickGen> is correct for synthesis.
+ 
+Analyzing module <Micro_Con_ROM> in library <work>.
+Module <Micro_Con_ROM> is correct for synthesis.
+ 
+Analyzing module <RAMReplacement_ROM> in library <work>.
+INFO:Xst:2546 - "RAMReplacement_ROM.v" line 14: reading initialization file "HEXProgramaMACHINECODE.txt".
+Module <RAMReplacement_ROM> is correct for synthesis.
+ 
+Analyzing module <BancoRegistros> in library <work>.
+Module <BancoRegistros> is correct for synthesis.
+ 
+Analyzing module <DecoPrioridad> in library <work>.
+Module <DecoPrioridad> is correct for synthesis.
+ 
+Analyzing module <Reg18b> in library <work>.
+	n = 32'sb00000000000000000000000000010010
+Module <Reg18b> is correct for synthesis.
+ 
+Analyzing module <Mux16x1> in library <work>.
+Module <Mux16x1> is correct for synthesis.
+ 
+Analyzing module <Conta4b> in library <work>.
+	LARGO = 32'sb00000000000000000000000000000100
+Module <Conta4b> is correct for synthesis.
+ 
+Analyzing module <ALU> in library <work>.
+Module <ALU> is correct for synthesis.
+ 
+Analyzing module <CONTROLCPU> in library <work>.
+Module <CONTROLCPU> is correct for synthesis.
+ 
+Analyzing module <Timer5ms> in library <work>.
+Module <Timer5ms> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <BaudTickGen>.
+    Related source file is "async.v".
+    Found 16-bit register for signal <Acc>.
+    Found 15-bit adder carry out for signal <Acc$addsub0000> created at line 192.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <BaudTickGen> synthesized.
+
+
+Synthesizing Unit <RAMReplacement_ROM>.
+    Related source file is "RAMReplacement_ROM.v".
+WARNING:Xst:1781 - Signal <MemoryRom> is used but never assigned. Tied to default value.
+    Found 16x32-bit ROM for signal <DataOut>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <RAMReplacement_ROM> synthesized.
+
+
+Synthesizing Unit <Conta4b>.
+    Related source file is "Conta4bv2.v".
+    Found 4-bit up counter for signal <cuenta>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Conta4b> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "ALU.v".
+WARNING:Xst:643 - "ALU.v" line 14: The result of a 18x18-bit multiplication is partially used. Only the 18 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 18-bit addsub for signal <P$addsub0000>.
+    Found 18x18-bit multiplier for signal <P$mult0001> created at line 14.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <CONTROLCPU>.
+    Related source file is "CONTROLCPU.v".
+Unit <CONTROLCPU> synthesized.
+
+
+Synthesizing Unit <Timer5ms>.
+    Related source file is "Timer5ms.v".
+    Found 16-bit up counter for signal <cuenta>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Timer5ms> synthesized.
+
+
+Synthesizing Unit <DecoPrioridad>.
+    Related source file is "DecoPrioridad.v".
+    Found 16x8-bit ROM for signal <Salid>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <DecoPrioridad> synthesized.
+
+
+Synthesizing Unit <Reg18b>.
+    Related source file is "Reg18b.v".
+    Found 18-bit register for signal <DataOut>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+Unit <Reg18b> synthesized.
+
+
+Synthesizing Unit <Mux16x1>.
+    Related source file is "Mux16x1.v".
+Unit <Mux16x1> synthesized.
+
+
+Synthesizing Unit <async_transmitter>.
+    Related source file is "async.v".
+    Found finite state machine <FSM_0> for signal <TxD_state>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 24                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 11                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <TxD_shift>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   8 D-type flip-flop(s).
+Unit <async_transmitter> synthesized.
+
+
+Synthesizing Unit <DCS>.
+    Related source file is "DCS.v".
+Unit <DCS> synthesized.
+
+
+Synthesizing Unit <BancoRegistros>.
+    Related source file is "BancoRegistros.v".
+Unit <BancoRegistros> synthesized.
+
+
+Synthesizing Unit <DCM_12MHz>.
+    Related source file is "DCM_12MHz.v".
+Unit <DCM_12MHz> synthesized.
+
+
+Synthesizing Unit <Micro_Con_ROM>.
+    Related source file is "Micro_Con_ROM.v".
+WARNING:Xst:646 - Signal <Shamt> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <InstruccionOut_IR<25>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Micro_Con_ROM> synthesized.
+
+
+Synthesizing Unit <Proyecto2_NOREFPOT_ROM>.
+    Related source file is "Proyecto2_NOREFPOT_ROM.v".
+WARNING:Xst:646 - Signal <PWMin<9:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK_50M> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Proyecto2_NOREFPOT_ROM> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x32-bit ROM                                         : 1
+ 16x8-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 18x18-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 2
+ 15-bit adder carry out                                : 1
+ 18-bit addsub                                         : 1
+# Counters                                             : 2
+ 16-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 10
+ 16-bit register                                       : 1
+ 18-bit register                                       : 8
+ 8-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <TX/TxD_state/FSM> on signal <TxD_state[1:4]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0100  | 0001
+ 1000  | 0010
+ 1001  | 0011
+ 1010  | 0100
+ 1011  | 0101
+ 1100  | 0110
+ 1101  | 0111
+ 1110  | 1000
+ 1111  | 1001
+ 0010  | 1010
+ 0011  | 1011
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 2
+ 16x32-bit ROM                                         : 1
+ 16x8-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 18x18-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 2
+ 15-bit adder carry out                                : 1
+ 18-bit addsub                                         : 1
+# Counters                                             : 2
+ 16-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 168
+ Flip-Flops                                            : 168
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <Acc_0> of sequential type is unconnected in block <BaudTickGen>.
+WARNING:Xst:2677 - Node <Acc_1> of sequential type is unconnected in block <BaudTickGen>.
+
+Optimizing unit <Proyecto2_NOREFPOT_ROM> ...
+
+Optimizing unit <BaudTickGen> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <async_transmitter> ...
+
+Optimizing unit <BancoRegistros> ...
+
+Optimizing unit <Micro_Con_ROM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Proyecto2_NOREFPOT_ROM, actual ratio is 5.
+WARNING:Xst:2677 - Node <Micro/BankReg/t2/DataOut_5> of sequential type is unconnected in block <Proyecto2_NOREFPOT_ROM>.
+WARNING:Xst:2677 - Node <Micro/BankReg/t2/DataOut_3> of sequential type is unconnected in block <Proyecto2_NOREFPOT_ROM>.
+WARNING:Xst:2677 - Node <Micro/BankReg/t2/DataOut_2> of sequential type is unconnected in block <Proyecto2_NOREFPOT_ROM>.
+WARNING:Xst:2677 - Node <Micro/BankReg/t2/DataOut_1> of sequential type is unconnected in block <Proyecto2_NOREFPOT_ROM>.
+FlipFlop Micro/PC1/cuenta_0 has been replicated 2 time(s)
+FlipFlop Micro/PC1/cuenta_1 has been replicated 2 time(s)
+FlipFlop Micro/PC1/cuenta_2 has been replicated 2 time(s)
+FlipFlop Micro/PC1/cuenta_3 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 194
+ Flip-Flops                                            : 194
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Proyecto2_NOREFPOT_ROM.ngr
+Top Level Output File Name         : Proyecto2_NOREFPOT_ROM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 480
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 24
+#      LUT2                        : 16
+#      LUT2_D                      : 2
+#      LUT2_L                      : 12
+#      LUT3                        : 49
+#      LUT3_D                      : 2
+#      LUT3_L                      : 24
+#      LUT4                        : 194
+#      LUT4_D                      : 8
+#      LUT4_L                      : 39
+#      MUXCY                       : 45
+#      MUXF5                       : 9
+#      VCC                         : 1
+#      XORCY                       : 47
+# FlipFlops/Latches                : 194
+#      FD                          : 14
+#      FDCE_1                      : 140
+#      FDE                         : 8
+#      FDR                         : 16
+#      FDRE                        : 12
+#      FDS                         : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 5
+#      IBUF                        : 1
+#      IBUFG                       : 1
+#      OBUF                        : 3
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# MULTs                            : 1
+#      MULT18X18SIO                : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      228  out of   4656     4%  
+ Number of Slice Flip Flops:            194  out of   9312     2%  
+ Number of 4 input LUTs:                377  out of   9312     4%  
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    232     2%  
+ Number of MULT18X18SIOs:                 1  out of     20     5%  
+ Number of GCLKs:                         2  out of     24     8%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)               | Load  |
+-----------------------------------+-------------------------------------+-------+
+clk                                | CLKs/instance_name/DCM_SP_INST:CLKDV| 194   |
+-----------------------------------+-------------------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 140   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.811ns (Maximum Frequency: 172.090MHz)
+   Minimum input arrival time before clock: 5.199ns
+   Maximum output required time after clock: 6.557ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.811ns (frequency: 172.090MHz)
+  Total number of paths / destination ports: 267529 / 386
+-------------------------------------------------------------------------
+Delay:               13.075ns (Levels of Logic = 6)
+  Source:            Micro/PC1/cuenta_1_1 (FF)
+  Destination:       Micro/BankReg/t2/DataOut_17 (FF)
+  Source Clock:      clk rising 0.2X
+  Destination Clock: clk falling 0.2X
+
+  Data Path: Micro/PC1/cuenta_1_1 to Micro/BankReg/t2/DataOut_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            11   0.591   1.012  Micro/PC1/cuenta_1_1 (Micro/PC1/cuenta_1_1)
+     LUT4:I1->O           30   0.704   1.341  Micro/BankReg/MuxRt/DatSal_cmp_eq000611_1 (Micro/BankReg/MuxRt/DatSal_cmp_eq000611)
+     LUT3:I1->O            1   0.704   0.424  Micro/BankReg/MuxRt/DatSal<9>39_SW1 (N287)
+     LUT4_L:I3->LO         1   0.704   0.135  Micro/BankReg/MuxRt/DatSal<9>41 (Micro/BankReg/MuxRt/DatSal<9>41)
+     LUT4:I2->O            2   0.704   0.447  Micro/BankReg/MuxRt/DatSal<9>59 (Micro/OperaA<9>)
+     MULT18X18SIO:A9->P17    1   4.873   0.424  Micro/AALU/Mmult_P_mult0001 (Micro/AALU/P_mult0001<17>)
+     LUT4:I3->O            8   0.704   0.000  Micro/AALU/P<17>1 (Micro/WrDat<17>)
+     FDCE_1:D                  0.308          Micro/BankReg/t2/DataOut_17
+    ----------------------------------------
+    Total                     13.075ns (9.292ns logic, 3.783ns route)
+                                       (71.1% logic, 28.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.199ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       Micro/Time/cuenta_15 (FF)
+  Destination Clock: clk falling 0.2X
+
+  Data Path: rst to Micro/Time/cuenta_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           141   1.218   1.332  rst_IBUF (rst_IBUF)
+     LUT3:I2->O           16   0.704   1.034  Micro/Time/cuenta_or00002 (Micro/Time/cuenta_or0000)
+     FDR:R                     0.911          Micro/Time/cuenta_0
+    ----------------------------------------
+    Total                      5.199ns (2.833ns logic, 2.366ns route)
+                                       (54.5% logic, 45.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 17 / 3
+-------------------------------------------------------------------------
+Offset:              6.557ns (Levels of Logic = 2)
+  Source:            TX/TxD_state_FSM_FFd2 (FF)
+  Destination:       TxD_busy (PAD)
+  Source Clock:      clk rising 0.2X
+
+  Data Path: TX/TxD_state_FSM_FFd2 to TxD_busy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  TX/TxD_state_FSM_FFd2 (TX/TxD_state_FSM_FFd2)
+     LUT4:I0->O           11   0.704   0.933  TX/TxD_busy1 (TxD_busy_OBUF)
+     OBUF:I->O                 3.272          TxD_busy_OBUF (TxD_busy)
+    ----------------------------------------
+    Total                      6.557ns (4.567ns logic, 1.990ns route)
+                                       (69.7% logic, 30.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.14 secs
+ 
+--> 
+
+Total memory usage is 276296 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

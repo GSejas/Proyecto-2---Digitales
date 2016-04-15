@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/GSejas/Desktop/proyecto1/Simu_Proyecto2SinRefniPWM_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Simu_Proyecto2SinRefniPWM" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/RxD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RxD</obj_property>
+      <obj_property name="ObjectShortName">RxD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/MOSI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MOSI</obj_property>
+      <obj_property name="ObjectShortName">MOSI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/SPI_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SPI_CLK</obj_property>
+      <obj_property name="ObjectShortName">SPI_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/CS_AMP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CS_AMP</obj_property>
+      <obj_property name="ObjectShortName">CS_AMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/PWMin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PWMin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PWMin[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/referencia" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">referencia[7:0]</obj_property>
+      <obj_property name="ObjectShortName">referencia[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/yactual" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">yactual[7:0]</obj_property>
+      <obj_property name="ObjectShortName">yactual[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/REF" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">REF[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/POT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">POT[17:0]</obj_property>
+      <obj_property name="ObjectShortName">POT[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/ADC_Conv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ADC_Conv</obj_property>
+      <obj_property name="ObjectShortName">ADC_Conv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/TxD_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TxD_busy</obj_property>
+      <obj_property name="ObjectShortName">TxD_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/clk4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk4</obj_property>
+      <obj_property name="ObjectShortName">clk4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/MISO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MISO</obj_property>
+      <obj_property name="ObjectShortName">MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/DatoIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DatoIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DatoIn[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/TxD_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TxD_start</obj_property>
+      <obj_property name="ObjectShortName">TxD_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/Dat" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Dat[5:0,33:0]</obj_property>
+      <obj_property name="ObjectShortName">Dat[5:0,33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/w" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/DatRx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DatRx[56:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">DatRx[56:0,7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AcquireData[15:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">AcquireData[15:0,31:0]</obj_property>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[15,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[14,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[13,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[12,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[11,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[10,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[9,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[8,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[7,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[6,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[5,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[4,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[3,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[2,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[1,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/InstructionRegister/AcquireData[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[0,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group209" type="group">
+      <obj_property name="label">Registros</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/BankReg/wv1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wv1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wv1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/BankReg/wa0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa0[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/BankReg/wa1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/BankReg/wa2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa2[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa2[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/BankReg/wa3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa3[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa3[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/BankReg/wt0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt0[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/BankReg/wt1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/BankReg/wt2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt2[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt2[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group222" type="group">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/CCPU/OP_CODE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OP_CODE[5:0]</obj_property>
+         <obj_property name="ObjectShortName">OP_CODE[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/CCPU/FUNCT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FUNCT[5:0]</obj_property>
+         <obj_property name="ObjectShortName">FUNCT[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/CCPU/HAB" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">HAB</obj_property>
+         <obj_property name="ObjectShortName">HAB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/CCPU/CONTROL" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">CONTROL[5:0]</obj_property>
+         <obj_property name="ObjectShortName">CONTROL[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group225" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/PC1/rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/PC1/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/PC1/ena" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Proyecto2SinRefniPWM/uut/Micro/PC1/cuenta" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cuenta[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cuenta[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

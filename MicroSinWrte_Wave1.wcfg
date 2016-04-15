@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/GSejas/Desktop/proyecto1/Simu_MicroSinWrtProgra_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Simu_MicroSinWrtProgra" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/PWM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PWM[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/WrDat" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WrDat[17:0]</obj_property>
+      <obj_property name="ObjectShortName">WrDat[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/OperaA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaA[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaA[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/OperaBBancos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaBBancos[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaBBancos[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/OperaBALU" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaBALU[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaBALU[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/InstruccionOut_IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstruccionOut_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstruccionOut_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/REF" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">REF[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/POT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">POT[17:0]</obj_property>
+      <obj_property name="ObjectShortName">POT[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/InstruccionIn_IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstruccionIn_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstruccionIn_IR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/WrtAddrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WrtAddrs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WrtAddrs[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/WTReady" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WTReady</obj_property>
+      <obj_property name="ObjectShortName">WTReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/WrtEna" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WrtEna</obj_property>
+      <obj_property name="ObjectShortName">WrtEna</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicroSinWrtProgra/InstTemp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstTemp[13:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstTemp[13:0,31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">Registros</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/BankReg/wv1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wv1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wv1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/BankReg/wa0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa0[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/BankReg/wa1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/BankReg/wa2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa2[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa2[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/BankReg/wa3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa3[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa3[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/BankReg/wt0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt0[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/BankReg/wt1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/BankReg/wt2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt2[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt2[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group20" type="group">
+      <obj_property name="label">Escritura</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group57" type="group">
+         <obj_property name="label">Escrib</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/InstructionRegister/AcquireData" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">AcquireData[15:0,31:0]</obj_property>
+            <obj_property name="ObjectShortName">AcquireData[15:0,31:0]</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#800080</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/InstructionRegister/WrtEna" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">WrtEna</obj_property>
+            <obj_property name="ObjectShortName">WrtEna</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#800080</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/InstructionRegister/WrtAddrs" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">WrtAddrs[3:0]</obj_property>
+            <obj_property name="ObjectShortName">WrtAddrs[3:0]</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#800080</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group57" type="group">
+         <obj_property name="label">Lee</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/InstructionRegister/DatIn" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">DatIn[31:0]</obj_property>
+            <obj_property name="ObjectShortName">DatIn[31:0]</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#808000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/InstructionRegister/RdAddrs" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">RdAddrs[3:0]</obj_property>
+            <obj_property name="ObjectShortName">RdAddrs[3:0]</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#808000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/InstructionRegister/DatOut" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">DatOut[31:0]</obj_property>
+            <obj_property name="ObjectShortName">DatOut[31:0]</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#808000</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/CCPU/OP_CODE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OP_CODE[5:0]</obj_property>
+         <obj_property name="ObjectShortName">OP_CODE[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/CCPU/FUNCT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FUNCT[5:0]</obj_property>
+         <obj_property name="ObjectShortName">FUNCT[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/CCPU/HAB" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">HAB</obj_property>
+         <obj_property name="ObjectShortName">HAB</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicroSinWrtProgra/uut/CCPU/CONTROL" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">CONTROL[5:0]</obj_property>
+         <obj_property name="ObjectShortName">CONTROL[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

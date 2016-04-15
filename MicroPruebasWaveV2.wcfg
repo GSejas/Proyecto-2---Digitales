@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/GSejas/Dropbox/Lab digitales/Proyecto 2/proyecto2_v2/proyecto2_v2/Simu_Micro_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Simu_Micro" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/Simu_Micro/RxD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RxD</obj_property>
+      <obj_property name="ObjectShortName">RxD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/TxD_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TxD_busy</obj_property>
+      <obj_property name="ObjectShortName">TxD_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/PWM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PWM[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/REF" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">REF[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/POT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">POT[17:0]</obj_property>
+      <obj_property name="ObjectShortName">POT[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/DatoIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DatoIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DatoIn[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/TxD_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TxD_start</obj_property>
+      <obj_property name="ObjectShortName">TxD_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/Dat" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Dat[56:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">Dat[56:0,7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider12" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/RxD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RxD</obj_property>
+      <obj_property name="ObjectShortName">RxD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/tododato" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tododato[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tododato[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/actwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">actwr</obj_property>
+      <obj_property name="ObjectShortName">actwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/ejecu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ejecu</obj_property>
+      <obj_property name="ObjectShortName">ejecu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/wradress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wradress[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wradress[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/RxD_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RxD_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RxD_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/RxD_data_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RxD_data_ready</obj_property>
+      <obj_property name="ObjectShortName">RxD_data_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/RxD_idle" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RxD_idle</obj_property>
+      <obj_property name="ObjectShortName">RxD_idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/WrteProgram/RxD_endofpacket" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RxD_endofpacket</obj_property>
+      <obj_property name="ObjectShortName">RxD_endofpacket</obj_property>
+   </wvobject>
+   <wvobject fp_name="group156" type="group">
+      <obj_property name="label">EJECU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/listo" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">listo</obj_property>
+         <obj_property name="ObjectShortName">listo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/opcode" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">opcode</obj_property>
+         <obj_property name="ObjectShortName">opcode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/ejecu" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ejecu</obj_property>
+         <obj_property name="ObjectShortName">ejecu</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/actwr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">actwr</obj_property>
+         <obj_property name="ObjectShortName">actwr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/rstcont" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rstcont</obj_property>
+         <obj_property name="ObjectShortName">rstcont</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/actcont2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">actcont2</obj_property>
+         <obj_property name="ObjectShortName">actcont2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/activreg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">activreg</obj_property>
+         <obj_property name="ObjectShortName">activreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/pres" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pres[1:0]</obj_property>
+         <obj_property name="ObjectShortName">pres[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/WrteProgram/entrada/maquina/futu" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">futu[1:0]</obj_property>
+         <obj_property name="ObjectShortName">futu[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group24" type="group">
+      <obj_property name="label">Registros</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_Micro/uut/BankReg/wv1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wv1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wv1[17:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/BankReg/wa0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa0[17:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/BankReg/wa1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa1[17:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/BankReg/wa2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa2[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa2[17:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/BankReg/wa3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa3[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa3[17:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/BankReg/wt0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt0[17:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/BankReg/wt1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt1[17:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/BankReg/wt2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt2[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt2[17:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group172" type="group">
+      <obj_property name="label">IR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/DatOut" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DatOut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DatOut[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/RdAddrs" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">RdAddrs[3:0]</obj_property>
+         <obj_property name="ObjectShortName">RdAddrs[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/WrtAddrs" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">WrtAddrs[3:0]</obj_property>
+         <obj_property name="ObjectShortName">WrtAddrs[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/WrtEna" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">WrtEna</obj_property>
+         <obj_property name="ObjectShortName">WrtEna</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/DatIn" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DatIn[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DatIn[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/AcquireData" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">AcquireData[15:0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">AcquireData[15:0,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/RAM_WIDTH" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">RAM_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/InstructionRegister/RAM_ADDR_BITS" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">RAM_ADDR_BITS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM_ADDR_BITS[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group182" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_Micro/uut/PC1/rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/PC1/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/PC1/ena" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/PC1/cuenta" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cuenta[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cuenta[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/CE_MEM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CE_MEM</obj_property>
+      <obj_property name="ObjectShortName">CE_MEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_Micro/uut/RST_PC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RST_PC</obj_property>
+      <obj_property name="ObjectShortName">RST_PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="group189" type="group">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_Micro/uut/CCPU/OP_CODE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">OP_CODE[5:0]</obj_property>
+         <obj_property name="ObjectShortName">OP_CODE[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/CCPU/FUNCT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">FUNCT[5:0]</obj_property>
+         <obj_property name="ObjectShortName">FUNCT[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/CCPU/HAB" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">HAB</obj_property>
+         <obj_property name="ObjectShortName">HAB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_Micro/uut/CCPU/CONTROL" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">CONTROL[5:0]</obj_property>
+         <obj_property name="ObjectShortName">CONTROL[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

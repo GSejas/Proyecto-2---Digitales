@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Alejandro/Proyecto1/prueba_isim_beh2.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="prueba" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/prueba/uut/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/PWMin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PWMin[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PWMin[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/referencia" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">referencia[8:0]</obj_property>
+      <obj_property name="ObjectShortName">referencia[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/yactual" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">yactual[8:0]</obj_property>
+      <obj_property name="ObjectShortName">yactual[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider24" type="divider">
+      <obj_property name="label">Derivada</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/derivada/Dsal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Dsal[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Dsal[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/derivada/yant" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">yant[8:0]</obj_property>
+      <obj_property name="ObjectShortName">yant[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/derivada/ysub" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ysub[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ysub[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/derivada/kdysub" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">kdysub[17:0]</obj_property>
+      <obj_property name="ObjectShortName">kdysub[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/derivada/guardado" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">guardado[17:0]</obj_property>
+      <obj_property name="ObjectShortName">guardado[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/derivada/kd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">kd[8:0]</obj_property>
+      <obj_property name="ObjectShortName">kd[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider25" type="divider">
+      <obj_property name="label">Integral</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/integral/ki" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ki[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ki[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/integral/Isal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Isal[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Isal[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/integral/dif" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dif[8:0]</obj_property>
+      <obj_property name="ObjectShortName">dif[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/integral/kiek" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">kiek[17:0]</obj_property>
+      <obj_property name="ObjectShortName">kiek[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/integral/iant" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iant[17:0]</obj_property>
+      <obj_property name="ObjectShortName">iant[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/integral/salida" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">salida[17:0]</obj_property>
+      <obj_property name="ObjectShortName">salida[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/integral/guardado" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">guardado[17:0]</obj_property>
+      <obj_property name="ObjectShortName">guardado[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider26" type="divider">
+      <obj_property name="label">Proporcional</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/proporcional/kp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">kp[8:0]</obj_property>
+      <obj_property name="ObjectShortName">kp[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/proporcional/propo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">propo[17:0]</obj_property>
+      <obj_property name="ObjectShortName">propo[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/proporcional/salida" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">salida[17:0]</obj_property>
+      <obj_property name="ObjectShortName">salida[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba/uut/fisico/proporcional/guardado" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">guardado[17:0]</obj_property>
+      <obj_property name="ObjectShortName">guardado[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+</wave_config>

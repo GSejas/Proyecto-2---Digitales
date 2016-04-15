@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/SIMU_MICRO_ROM_isim_par2.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="SIMU_MICRO_ROM" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/SIMU_MICRO_ROM/TxD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TxD</obj_property>
+      <obj_property name="ObjectShortName">TxD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/TxD_busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TxD_busy</obj_property>
+      <obj_property name="ObjectShortName">TxD_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/ena2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ena2</obj_property>
+      <obj_property name="ObjectShortName">ena2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\Micro/BankReg/t0/DataOut " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\Micro/BankReg/t0/DataOut [17:0]</obj_property>
+      <obj_property name="ObjectShortName">\Micro/BankReg/t0/DataOut [17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\Micro/BankReg/t1/DataOut " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\Micro/BankReg/t1/DataOut [17:0]</obj_property>
+      <obj_property name="ObjectShortName">\Micro/BankReg/t1/DataOut [17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\Micro/BankReg/a0/DataOut " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\Micro/BankReg/a0/DataOut [17:0]</obj_property>
+      <obj_property name="ObjectShortName">\Micro/BankReg/a0/DataOut [17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\Micro/BankReg/a2/DataOut " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\Micro/BankReg/a2/DataOut [17:0]</obj_property>
+      <obj_property name="ObjectShortName">\Micro/BankReg/a2/DataOut [17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\Micro/BankReg/a1/DataOut " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\Micro/BankReg/a1/DataOut [17:0]</obj_property>
+      <obj_property name="ObjectShortName">\Micro/BankReg/a1/DataOut [17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\Micro/BankReg/a3/DataOut " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\Micro/BankReg/a3/DataOut [17:0]</obj_property>
+      <obj_property name="ObjectShortName">\Micro/BankReg/a3/DataOut [17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\NlwBufferSignal_Micro/AALU/Mmult_P_mult0001/B " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\NlwBufferSignal_Micro/AALU/Mmult_P_mult0001/B [17:0]</obj_property>
+      <obj_property name="ObjectShortName">\NlwBufferSignal_Micro/AALU/Mmult_P_mult0001/B [17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\Micro/PC1/cuenta " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\Micro/PC1/cuenta [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\Micro/PC1/cuenta [3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SIMU_MICRO_ROM/uut/\Micro/CONTROL " type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">\Micro/CONTROL [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\Micro/CONTROL [2:0]</obj_property>
+   </wvobject>
+</wave_config>

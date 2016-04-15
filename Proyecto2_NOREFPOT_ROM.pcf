@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Wed Jun 11 14:05:46 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "TxD" LOCATE = SITE "M14" LEVEL 1;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "rst" LOCATE = SITE "D18" LEVEL 1;
+COMP "ena2" LOCATE = SITE "F9" LEVEL 1;
+COMP "TxD_busy" LOCATE = SITE "C11" LEVEL 1;
+SCHEMATIC END;
+

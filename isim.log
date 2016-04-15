@@ -1,0 +1,23 @@
+ISim log file
+Running: C:\Users\Alejandro\Desktop\Version 4 Proyecto 2\proyecto1\SIMU_MICRO_ROM_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/SIMU_MICRO_ROM_isim_par.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim2.wdb.
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/proyecto2_norefpot_rom_timesim.sdf, for root module /SIMU_MICRO_ROM/uut/.
+Finished circuit initialization process.
+# run all
+Stopped at time : 17013590 ns : File "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/dasds.v" Line 46
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 23020270 ns : File "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/SIMU_Proyecto2_NOREFPOT_ROM_POST.v" Line 61
+# run all
+Stopped at time : 342469440 ns : File "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/SIMU_Proyecto2_NOREFPOT_ROM_POST.v" Line 61

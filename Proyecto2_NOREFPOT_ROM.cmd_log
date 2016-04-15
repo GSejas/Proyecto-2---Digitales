@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.xst" -ofn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.syr" 
+xst -intstyle ise -ifn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.xst" -ofn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.syr" 
+xst -intstyle ise -ifn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.xst" -ofn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.syr" 
+xst -intstyle ise -ifn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.xst" -ofn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "Proyecto2_NOREFPOT_ROM.ngc" Proyecto2_NOREFPOT_ROM.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -u -c 100 -o Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ngd Proyecto2_NOREFPOT_ROM.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Proyecto2_NOREFPOT_ROM.twx Proyecto2_NOREFPOT_ROM.ncd -o Proyecto2_NOREFPOT_ROM.twr Proyecto2_NOREFPOT_ROM.pcf 
+netgen -intstyle ise -s 4  -pcf Proyecto2_NOREFPOT_ROM.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM_timesim.v 
+bitgen -intstyle ise -f Proyecto2_NOREFPOT_ROM.ut Proyecto2_NOREFPOT_ROM.ncd 
+xst -intstyle ise -ifn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.xst" -ofn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "Proyecto2_NOREFPOT_ROM.ngc" Proyecto2_NOREFPOT_ROM.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -u -c 100 -o Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ngd Proyecto2_NOREFPOT_ROM.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Proyecto2_NOREFPOT_ROM.twx Proyecto2_NOREFPOT_ROM.ncd -o Proyecto2_NOREFPOT_ROM.twr Proyecto2_NOREFPOT_ROM.pcf 
+netgen -intstyle ise -s 4  -pcf Proyecto2_NOREFPOT_ROM.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM_timesim.v 
+bitgen -intstyle ise -f Proyecto2_NOREFPOT_ROM.ut Proyecto2_NOREFPOT_ROM.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF_Prueba_ROM.ucf -p xc3s500e-fg320-4 "Proyecto2_NOREFPOT_ROM.ngc" Proyecto2_NOREFPOT_ROM.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -u -c 100 -o Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ngd Proyecto2_NOREFPOT_ROM.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Proyecto2_NOREFPOT_ROM.twx Proyecto2_NOREFPOT_ROM.ncd -o Proyecto2_NOREFPOT_ROM.twr Proyecto2_NOREFPOT_ROM.pcf -ucf UCF_Prueba_ROM.ucf 
+netgen -intstyle ise -s 4  -pcf Proyecto2_NOREFPOT_ROM.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM_timesim.v 
+bitgen -intstyle ise -f Proyecto2_NOREFPOT_ROM.ut Proyecto2_NOREFPOT_ROM.ncd 
+xst -intstyle ise -ifn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.xst" -ofn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF_Prueba_ROM.ucf -p xc3s500e-fg320-4 "Proyecto2_NOREFPOT_ROM.ngc" Proyecto2_NOREFPOT_ROM.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -u -c 100 -o Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ngd Proyecto2_NOREFPOT_ROM.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Proyecto2_NOREFPOT_ROM.twx Proyecto2_NOREFPOT_ROM.ncd -o Proyecto2_NOREFPOT_ROM.twr Proyecto2_NOREFPOT_ROM.pcf -ucf UCF_Prueba_ROM.ucf 
+netgen -intstyle ise -s 4  -pcf Proyecto2_NOREFPOT_ROM.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM_timesim.v 
+bitgen -intstyle ise -f Proyecto2_NOREFPOT_ROM.ut Proyecto2_NOREFPOT_ROM.ncd 
+xst -intstyle ise -ifn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.xst" -ofn "C:/Users/Alejandro/Desktop/Version 4 Proyecto 2/proyecto1/Proyecto2_NOREFPOT_ROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF_Prueba_ROM.ucf -p xc3s500e-fg320-4 "Proyecto2_NOREFPOT_ROM.ngc" Proyecto2_NOREFPOT_ROM.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -u -c 100 -o Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ngd Proyecto2_NOREFPOT_ROM.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto2_NOREFPOT_ROM_map.ncd Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Proyecto2_NOREFPOT_ROM.twx Proyecto2_NOREFPOT_ROM.ncd -o Proyecto2_NOREFPOT_ROM.twr Proyecto2_NOREFPOT_ROM.pcf -ucf UCF_Prueba_ROM.ucf 
+netgen -intstyle ise -s 4  -pcf Proyecto2_NOREFPOT_ROM.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim Proyecto2_NOREFPOT_ROM.ncd Proyecto2_NOREFPOT_ROM_timesim.v 

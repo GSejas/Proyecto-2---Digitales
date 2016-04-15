@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/GSejas/Desktop/proyecto1/Simu_MicrodePruebas_isim_beh2.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Simu_MicrodePruebas" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="43" />
+   <wvobject fp_name="/Simu_MicrodePruebas/PWM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PWM[17:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/REF" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">REF[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/POT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">POT[17:0]</obj_property>
+      <obj_property name="ObjectShortName">POT[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/InstruccionIn_IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstruccionIn_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstruccionIn_IR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/WrtAddrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WrtAddrs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WrtAddrs[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/WTReady" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WTReady</obj_property>
+      <obj_property name="ObjectShortName">WTReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/WrtEna" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WrtEna</obj_property>
+      <obj_property name="ObjectShortName">WrtEna</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/InstruccionIn_IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstruccionIn_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstruccionIn_IR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/WrtAddrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WrtAddrs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WrtAddrs[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/WrtEna" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WrtEna</obj_property>
+      <obj_property name="ObjectShortName">WrtEna</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/WTReady" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WTReady</obj_property>
+      <obj_property name="ObjectShortName">WTReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/AddrsRt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AddrsRt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AddrsRt[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/AddrsRs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AddrsRs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AddrsRs[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/AddrsRd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AddrsRd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AddrsRd[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/Inmediate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Inmediate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Inmediate[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/Shamt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/funct" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/InstruccionOut_IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstruccionOut_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstruccionOut_IR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/WrDat" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WrDat[17:0]</obj_property>
+      <obj_property name="ObjectShortName">WrDat[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/RST_PC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RST_PC</obj_property>
+      <obj_property name="ObjectShortName">RST_PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/OperaA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaA[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaA[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/OperaBBancos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaBBancos[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaBBancos[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/OperaBALU" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OperaBALU[17:0]</obj_property>
+      <obj_property name="ObjectShortName">OperaBALU[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/ExtSign" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ExtSign[17:0]</obj_property>
+      <obj_property name="ObjectShortName">ExtSign[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/LU_OPCODE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LU_OPCODE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">LU_OPCODE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/AddDestino" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AddDestino[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AddDestino[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider43" type="divider">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00ff00</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/CCPU/OP_CODE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OP_CODE[5:0]</obj_property>
+      <obj_property name="ObjectShortName">OP_CODE[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/CCPU/FUNCT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">FUNCT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">FUNCT[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/CONTROL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CONTROL[5:0]</obj_property>
+      <obj_property name="ObjectShortName">CONTROL[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/CE_MEM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CE_MEM</obj_property>
+      <obj_property name="ObjectShortName">CE_MEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/SEL_OPERAB" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SEL_OPERAB</obj_property>
+      <obj_property name="ObjectShortName">SEL_OPERAB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/REG_WR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REG_WR</obj_property>
+      <obj_property name="ObjectShortName">REG_WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/SEL_DEST" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SEL_DEST</obj_property>
+      <obj_property name="ObjectShortName">SEL_DEST</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider61" type="divider">
+      <obj_property name="label">BancoDatos</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/SelDecWrt/Sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/SelDecWrt/Salid" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Salid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Salid[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">Registros</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/wv1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wv1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wv1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#000080</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/wa0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa0[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#000080</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/wa1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#000080</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/wa2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa2[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa2[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#000080</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/wa3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wa3[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wa3[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#000080</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/wt0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt0[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#000080</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/wt1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt1[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt1[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#000080</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/wt2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wt2[17:0]</obj_property>
+         <obj_property name="ObjectShortName">wt2[17:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#000080</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Simu_MicrodePruebas/uut/BankReg/Salid" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Salid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Salid[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
